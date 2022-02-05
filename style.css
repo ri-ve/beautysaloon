@@ -186,12 +186,13 @@ nav .icon-close {
     right: 1.5rem;
    transition: 0.2s;
 }
-nav.menu ul {
-    display:none;
+nav .menu ul{
+    display: none;
 }
-.nav.show .menu ul{
+nav.show .menu ul{
    display: grid; 
 }
+
 nav.show .icon-close{
     visibility: visible;
     opacity: 1;
@@ -510,6 +511,7 @@ transform: translateY(100%);
         display: flex;
         gap:2rem;
     }
+    
     nav .menu ul li a.title {
         font:400 1rem var(--body-font);
         -webKit-font-smoothing: antialiased;
