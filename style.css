@@ -181,7 +181,7 @@ nav.show ul.grid {
 nav .icon-close {
     visibility: hidden;
     opacity: 0;
-
+    top:-1.5rem;
     position: absolute;
     right: 1.5rem;
    transition: 0.2s;
@@ -447,7 +447,7 @@ footer .social {
     width: fit-content;
 }
 footer .social a:hover {
-    transform: translateY(-8PX);
+    transform: translateY(-8px);
 }
 
 /*Back-to-top*/
